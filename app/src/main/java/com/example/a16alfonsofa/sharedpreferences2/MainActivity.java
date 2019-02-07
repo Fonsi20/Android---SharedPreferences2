@@ -55,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = prefs.edit();
                 editor.putString("Texto", "Texto Cambiante");
 
-
-
                 if (rbAzul.isChecked()) {
                     lblT.setTextColor(Color.BLUE);
                     editor.putString("Color", "Azul");
